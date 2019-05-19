@@ -43,6 +43,8 @@
 		66E42BC51B6CD7D000BB6E24 /* ServerCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E42BC41B6CD7D000BB6E24 /* ServerCommands.m */; };
 		66F9868D1B6D77A700F00C24 /* ScriptingCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F9868C1B6D77A700F00C24 /* ScriptingCommands.m */; };
 		66F9868F1B6D8B0F00F00C24 /* PubSubCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F9868E1B6D8B0F00F00C24 /* PubSubCommands.m */; };
+		E0DC19A52291579500677E65 /* CocoaRedis.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C843D1B5D597700F6C4C1 /* CocoaRedis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0DC19A62291579900677E65 /* CocoaRedis.m in Headers */ = {isa = PBXBuildFile; fileRef = 665C843B1B5D595300F6C4C1 /* CocoaRedis.m */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				668D25181B89ED19001330F5 /* dict.h in Headers */,
+				E0DC19A52291579500677E65 /* CocoaRedis.h in Headers */,
+				E0DC19A62291579900677E65 /* CocoaRedis.m in Headers */,
 				668D251B1B89ED19001330F5 /* hiredis.h in Headers */,
 				668D251E1B89ED19001330F5 /* net.h in Headers */,
 				668D25221B89ED19001330F5 /* sds.h in Headers */,
