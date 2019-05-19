@@ -6,7 +6,8 @@
 //  Copyright (c) 2015 Dmitry Bakhvalov. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+//#import <Cocoa/Cocoa.h> //only on Mac
+#import <Foundation/Foundation.h> // added for iPhone
 
 typedef NS_ENUM(NSInteger, CocoaPromiseState) {
     kCocoaPromisePendingState,
