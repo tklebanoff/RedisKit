@@ -35,7 +35,7 @@
 		668D25211B89ED19001330F5 /* sds.c in Sources */ = {isa = PBXBuildFile; fileRef = 668D25121B89ED19001330F5 /* sds.c */; };
 		668D25221B89ED19001330F5 /* sds.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25131B89ED19001330F5 /* sds.h */; };
 		668D25231B89ED19001330F5 /* win32.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25141B89ED19001330F5 /* win32.h */; };
-		668D25271B89ED8B001330F5 /* CocoaPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25251B89ED8B001330F5 /* CocoaPromise.h */; };
+		668D25271B89ED8B001330F5 /* CocoaPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25251B89ED8B001330F5 /* CocoaPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		668D25281B89ED8B001330F5 /* CocoaPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D25261B89ED8B001330F5 /* CocoaPromise.m */; };
 		66B4D8501B68DCD900EEA922 /* SortedSetsCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4D84F1B68DCD900EEA922 /* SortedSetsCommands.m */; };
 		66B754F61B681C5900BB822B /* HashesCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B754F51B681C5900BB822B /* HashesCommands.m */; };
@@ -45,6 +45,7 @@
 		66F9868F1B6D8B0F00F00C24 /* PubSubCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F9868E1B6D8B0F00F00C24 /* PubSubCommands.m */; };
 		E0DC19A52291579500677E65 /* CocoaRedis.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C843D1B5D597700F6C4C1 /* CocoaRedis.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0DC19A62291579900677E65 /* CocoaRedis.m in Headers */ = {isa = PBXBuildFile; fileRef = 665C843B1B5D595300F6C4C1 /* CocoaRedis.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0DC19A92291582800677E65 /* CocoaPromise.m in Headers */ = {isa = PBXBuildFile; fileRef = 668D25261B89ED8B001330F5 /* CocoaPromise.m */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,6 +237,8 @@
 			files = (
 				668D25181B89ED19001330F5 /* dict.h in Headers */,
 				E0DC19A52291579500677E65 /* CocoaRedis.h in Headers */,
+				668D25271B89ED8B001330F5 /* CocoaPromise.h in Headers */,
+				E0DC19A92291582800677E65 /* CocoaPromise.m in Headers */,
 				E0DC19A62291579900677E65 /* CocoaRedis.m in Headers */,
 				668D251B1B89ED19001330F5 /* hiredis.h in Headers */,
 				668D251E1B89ED19001330F5 /* net.h in Headers */,
@@ -246,7 +249,6 @@
 				668D25191B89ED19001330F5 /* fmacros.h in Headers */,
 				668D25231B89ED19001330F5 /* win32.h in Headers */,
 				665C84031B5D57DF00F6C4C1 /* RedisKit.h in Headers */,
-				668D25271B89ED8B001330F5 /* CocoaPromise.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
