@@ -21,20 +21,20 @@
 		6664A3351B6BAB0C00067E96 /* RedisTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6664A3341B6BAB0C00067E96 /* RedisTestCase.m */; };
 		6664A3381B6BB01900067E96 /* TranscationsCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 6664A3371B6BB01900067E96 /* TranscationsCommands.m */; };
 		668D25151B89ED19001330F5 /* async.c in Sources */ = {isa = PBXBuildFile; fileRef = 668D25061B89ED19001330F5 /* async.c */; };
-		668D25161B89ED19001330F5 /* async.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25071B89ED19001330F5 /* async.h */; };
+		668D25161B89ED19001330F5 /* async.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25071B89ED19001330F5 /* async.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		668D25171B89ED19001330F5 /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = 668D25081B89ED19001330F5 /* dict.c */; };
-		668D25181B89ED19001330F5 /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25091B89ED19001330F5 /* dict.h */; };
-		668D25191B89ED19001330F5 /* fmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D250A1B89ED19001330F5 /* fmacros.h */; };
+		668D25181B89ED19001330F5 /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25091B89ED19001330F5 /* dict.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668D25191B89ED19001330F5 /* fmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D250A1B89ED19001330F5 /* fmacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		668D251A1B89ED19001330F5 /* hiredis.c in Sources */ = {isa = PBXBuildFile; fileRef = 668D250B1B89ED19001330F5 /* hiredis.c */; };
-		668D251B1B89ED19001330F5 /* hiredis.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D250C1B89ED19001330F5 /* hiredis.h */; };
-		668D251C1B89ED19001330F5 /* macosx.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D250D1B89ED19001330F5 /* macosx.h */; };
+		668D251B1B89ED19001330F5 /* hiredis.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D250C1B89ED19001330F5 /* hiredis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668D251C1B89ED19001330F5 /* macosx.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D250D1B89ED19001330F5 /* macosx.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		668D251D1B89ED19001330F5 /* net.c in Sources */ = {isa = PBXBuildFile; fileRef = 668D250E1B89ED19001330F5 /* net.c */; };
-		668D251E1B89ED19001330F5 /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D250F1B89ED19001330F5 /* net.h */; };
+		668D251E1B89ED19001330F5 /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D250F1B89ED19001330F5 /* net.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		668D251F1B89ED19001330F5 /* read.c in Sources */ = {isa = PBXBuildFile; fileRef = 668D25101B89ED19001330F5 /* read.c */; };
-		668D25201B89ED19001330F5 /* read.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25111B89ED19001330F5 /* read.h */; };
+		668D25201B89ED19001330F5 /* read.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25111B89ED19001330F5 /* read.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		668D25211B89ED19001330F5 /* sds.c in Sources */ = {isa = PBXBuildFile; fileRef = 668D25121B89ED19001330F5 /* sds.c */; };
-		668D25221B89ED19001330F5 /* sds.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25131B89ED19001330F5 /* sds.h */; };
-		668D25231B89ED19001330F5 /* win32.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25141B89ED19001330F5 /* win32.h */; };
+		668D25221B89ED19001330F5 /* sds.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25131B89ED19001330F5 /* sds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668D25231B89ED19001330F5 /* win32.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25141B89ED19001330F5 /* win32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		668D25271B89ED8B001330F5 /* CocoaPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D25251B89ED8B001330F5 /* CocoaPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		668D25281B89ED8B001330F5 /* CocoaPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D25261B89ED8B001330F5 /* CocoaPromise.m */; };
 		66B4D8501B68DCD900EEA922 /* SortedSetsCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4D84F1B68DCD900EEA922 /* SortedSetsCommands.m */; };
@@ -102,6 +102,8 @@
 		66E42BC41B6CD7D000BB6E24 /* ServerCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCommands.m; sourceTree = "<group>"; };
 		66F9868C1B6D77A700F00C24 /* ScriptingCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptingCommands.m; sourceTree = "<group>"; };
 		66F9868E1B6D8B0F00F00C24 /* PubSubCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PubSubCommands.m; sourceTree = "<group>"; };
+		E0DC19AA2291586C00677E65 /* CocoaPromise.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CocoaPromise.h; path = ../../repo/iphone_client/Carthage/Build/iOS/RedisKit.framework/Headers/CocoaPromise.h; sourceTree = "<group>"; };
+		E0DC19AB2291586C00677E65 /* CocoaPromise.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CocoaPromise.m; path = ../../repo/iphone_client/Carthage/Build/iOS/RedisKit.framework/Headers/CocoaPromise.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,8 @@
 		665C83F31B5D57DF00F6C4C1 = {
 			isa = PBXGroup;
 			children = (
+				E0DC19AA2291586C00677E65 /* CocoaPromise.h */,
+				E0DC19AB2291586C00677E65 /* CocoaPromise.m */,
 				668D25031B89EBBF001330F5 /* LICENSE */,
 				668D25041B89EBBF001330F5 /* README.md */,
 				668D25241B89ED8B001330F5 /* PromiseKit */,
@@ -235,11 +239,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				668D25181B89ED19001330F5 /* dict.h in Headers */,
 				E0DC19A52291579500677E65 /* CocoaRedis.h in Headers */,
 				668D25271B89ED8B001330F5 /* CocoaPromise.h in Headers */,
 				E0DC19A92291582800677E65 /* CocoaPromise.m in Headers */,
 				E0DC19A62291579900677E65 /* CocoaRedis.m in Headers */,
+				668D25181B89ED19001330F5 /* dict.h in Headers */,
 				668D251B1B89ED19001330F5 /* hiredis.h in Headers */,
 				668D251E1B89ED19001330F5 /* net.h in Headers */,
 				668D25221B89ED19001330F5 /* sds.h in Headers */,
